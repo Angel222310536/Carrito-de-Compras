@@ -1,0 +1,15 @@
+/* Estilos para las notificaciones */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+  }
+  .toast.error {
+    background-color: #f44336;
+  }
